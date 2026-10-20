@@ -26,9 +26,45 @@ O arquivo [`SKILL.md`](SKILL.md) reúne:
 
 Formato e nível de Bloom são entradas independentes, definidas no Blueprint, e nunca são alterados pela skill.
 
-## Como usar
+## Instalação
 
-Copie a pasta para o diretório de skills do seu assistente (por exemplo, `.claude/skills/adaptacao-itens-tdah/`) e solicite, por exemplo: "Adapte os itens do banco de Ciclos da Vida V para estudantes com TDAH". A skill pergunta o escopo (itens, forma de entrega, política institucional de acomodações, número de alternativas) antes de executar.
+A skill é uma pasta com o arquivo `SKILL.md`. A instalação consiste em colocar essa pasta no diretório de skills do assistente.
+
+**Claude Code (terminal ou desktop).** Clone o repositório dentro do diretório de skills pessoais ou do projeto:
+
+```
+git clone https://github.com/opaulomarcondes/adaptacao-itens-tdah ~/.claude/skills/adaptacao-itens-tdah
+```
+
+Para uso restrito a um projeto, clone em `.claude/skills/adaptacao-itens-tdah/` na raiz dele.
+
+**Claude (aplicativo web ou desktop).** Compacte a pasta `adaptacao-itens-tdah` em um arquivo .zip e envie-o em Configurações, Capacidades, Skills (o caminho exato pode variar conforme a versão do aplicativo).
+
+**Outros assistentes.** O `SKILL.md` é um arquivo Markdown com cabeçalho YAML (`name` e `description`) e pode ser usado como instrução de sistema ou de projeto em qualquer assistente que aceite instruções em texto.
+
+Reinicie a sessão após a instalação para que a skill seja carregada.
+
+## Uso
+
+A skill é acionada quando o pedido envolve adaptar itens, bancos ou provas para estudantes com TDAH. Exemplos de solicitação:
+
+- "Adapte os itens do banco de Ciclos da Vida V para estudantes com TDAH."
+- "Gere a versão adaptada das questões 5 a 12 da avaliação, mantendo o gabarito."
+- "Este item pode ser adaptado sem alterar o construto?"
+
+Antes de executar, a skill pergunta o escopo: quais itens, como a versão adaptada será entregue, se há política institucional de acomodações e se o número de alternativas permanece em quatro. A entrega é um documento .docx com os itens adaptados e uma tabela de Registro de Adaptações. Um exemplo completo, com item original, item adaptado e registro, está em [`exemplos/exemplo-adaptacao-mcq.md`](exemplos/exemplo-adaptacao-mcq.md).
+
+Entradas esperadas: itens já elaborados, com formato e nível de Bloom definidos no Blueprint. A skill não cria itens novos.
+
+## Estrutura do repositório
+
+| Arquivo | Função |
+| --- | --- |
+| `SKILL.md` | Instruções da skill: fundamentação, regras, procedimento e checklist |
+| `README.md` | Apresentação, instalação e uso |
+| `exemplos/exemplo-adaptacao-mcq.md` | Exemplo ilustrativo de adaptação |
+| `CITATION.cff` | Metadados para citação |
+| `LICENSE` | Texto integral da GNU GPL v3.0 |
 
 ## Limites
 
@@ -37,3 +73,11 @@ A skill não diagnostica, não presume TDAH em nenhum estudante e não substitui
 ## Autoria
 
 Paulo Marcondes Carvalho Junior, Instituto Educater (São Paulo), especializado na formação em alto nível na educação médica: desenvolvimento curricular baseado em competências, métodos ativos de ensino-aprendizagem e avaliação de cursos de graduação em medicina.
+
+## Licença
+
+Distribuída sob a licença GNU General Public License v3.0 (GPL-3.0). Obras derivadas que forem distribuídas devem manter a mesma licença e o registro de autoria. O texto integral está em [`LICENSE`](LICENSE).
+
+## Como citar
+
+Carvalho Junior, P. M. *Adaptação de itens de avaliação cognitiva para estudantes com TDAH* (versão 1.0). Instituto Educater, 2026. Disponível em: https://github.com/opaulomarcondes/adaptacao-itens-tdah

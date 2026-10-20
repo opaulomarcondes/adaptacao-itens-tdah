@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Se utilizar esta skill, cite-a como abaixo."
+title: "Adaptação de itens de avaliação cognitiva para estudantes com TDAH"
+type: software
+version: 1.0.0
+date-released: 2026-10-20
+license: GPL-3.0-only
+authors:
+  - family-names: "Carvalho Junior"
+    given-names: "Paulo Marcondes"
+    affiliation: "Instituto Educater"
+repository-code: "https://github.com/opaulomarcondes/adaptacao-itens-tdah"
