@@ -36,4 +36,4 @@ A skill não diagnostica, não presume TDAH em nenhum estudante e não substitui
 
 ## Autoria
 
-Paulo Marcondes Carvalho Junior, Instituto Educater (São Paulo), consultoria especializada em educação médica: desenvolvimento curricular baseado em competências, métodos ativos de ensino-aprendizagem e avaliação de cursos de graduação em medicina.
+Paulo Marcondes Carvalho Junior, Instituto Educater (São Paulo), especializado na formação em alto nível na educação médica: desenvolvimento curricular baseado em competências, métodos ativos de ensino-aprendizagem e avaliação de cursos de graduação em medicina.

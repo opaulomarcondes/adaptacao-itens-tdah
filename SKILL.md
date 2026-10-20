@@ -145,4 +145,4 @@ Esta skill não diagnostica, não presume TDAH em nenhum estudante e não substi
 
 ## Autoria
 
-Desenvolvida por Paulo Marcondes Carvalho Junior, Instituto Educater (São Paulo), consultoria especializada em educação médica. Versão 1.0, outubro de 2026.
+Desenvolvida por Paulo Marcondes Carvalho Junior, Instituto Educater (São Paulo), especializado na formação em alto nível na educação médica. Versão 1.0, outubro de 2026.
