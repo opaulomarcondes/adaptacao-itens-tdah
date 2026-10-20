@@ -70,6 +70,10 @@ Entradas esperadas: itens já elaborados, com formato e nível de Bloom definido
 
 A skill não diagnostica, não presume TDAH em nenhum estudante e não substitui avaliação multiprofissional nem decisão regulatória. A eficácia das regras para estudantes de medicina não foi testada empiricamente; recomenda-se comparar dificuldade e discriminação dos itens adaptados e originais na análise psicométrica pós-aplicação. A aplicabilidade de normas como a Lei 14.254/2021 ao ensino superior deve ser verificada com assessoria jurídica.
 
+## Origem da ideia
+
+A ideia desta skill surgiu de uma conversa com a profa. Maristela Sanches Bertasso Borges, coordenadora da Central de Apoio e Desenvolvimento do Estudante (CADE/Unirp), a quem registramos o agradecimento.
+
 ## Autoria
 
 Paulo Marcondes Carvalho Junior, Instituto Educater (São Paulo), especializado na formação em alto nível na educação médica: desenvolvimento curricular baseado em competências, métodos ativos de ensino-aprendizagem e avaliação de cursos de graduação em medicina.
